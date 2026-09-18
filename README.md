@@ -12,3 +12,9 @@ Requirements analysis for the mars rover mission control system, including funct
 * **NFR-02 (Security - Original):** Only authenticated Mission Control operators shall be permitted to issue rover commands.
 * **NFR-03 (Reliability):** The system shall continue operating despite temporary communication interruptions.
 * **NFR-04 (Scalability - Original):** The system should support communication with multiple rovers simultaneously.
+## 2. Mission Control Change Requests (CRs)
+
+### Change Request CR-01: Emergency Safety Thresholds
+* **Target Requirement:** FR-04
+* **Original:** The rover shall enter Safe Mode when a critical battery or thermal condition is detected.
+* **Updated Requirement:** The rover shall enter Safe Mode within 3 seconds when battery temperature exceeds the critical threshold or battery capacity falls below the defined emergency level.
