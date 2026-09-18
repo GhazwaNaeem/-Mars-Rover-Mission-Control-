@@ -18,3 +18,7 @@ Requirements analysis for the mars rover mission control system, including funct
 * **Target Requirement:** FR-04
 * **Original:** The rover shall enter Safe Mode when a critical battery or thermal condition is detected.
 * **Updated Requirement:** The rover shall enter Safe Mode within 3 seconds when battery temperature exceeds the critical threshold or battery capacity falls below the defined emergency level.
+* ### Change Request CR-02: Mission Expansion
+* **Target Requirement:** NFR-04.
+* **Original:** The system shall support communication with multiple rovers simultaneously.
+* **Updated Requirement:** The system shall support at least 20 simultaneously connected rovers.
