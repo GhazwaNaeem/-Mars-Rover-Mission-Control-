@@ -22,3 +22,7 @@ Requirements analysis for the mars rover mission control system, including funct
 * **Target Requirement:** NFR-04.
 * **Original:** The system shall support communication with multiple rovers simultaneously.
 * **Updated Requirement:** The system shall support at least 20 simultaneously connected rovers.
+* ### Change Request CR-03: Security Upgrade
+* **Target Requirement:** NFR-02.
+* **Original:** Only authenticated Mission Control operators shall be permitted to issue rover commands.
+* **Updated Requirement:** The system shall require authenticated and role-authorized operators before accepting rover commands.
